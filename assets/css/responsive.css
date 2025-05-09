@@ -1,0 +1,194 @@
+@media (max-width: 991.98px) { 
+    #navbar{
+        padding:20px 0px ;
+
+    }
+    /* 01:hero-section-start------------------------------------------------------------- */
+    #hero-section{
+        text-align: center;
+        padding:40px 0px;
+    }
+    #hero-section .hero-left h1{
+        font-size: 40px;
+    }
+     #hero-section .hero-left h5{
+        font-size: 18px;
+        margin-top:20px;
+     }
+     #hero-section .hero-left p{
+        font-size: 18px;
+        margin-bottom: 0px;
+     }
+      #hero-section .hero-left .lets-talk-button{
+        margin-bottom:10px;
+        margin-right:0px;
+        /* text-align: ; */
+      }
+       #hero-section .hero-left .download-cv-button{
+        text-align: center;
+       }
+    #hero-section .hero-left .icon-container{
+            display: block;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 30px;
+        }
+    #hero-section .hero-left .icon-container .icon-title{
+            font-size: 15px;
+            /* text-align: left; */
+    }
+     #hero-section .hero-left .icon-container .icon{
+        margin: 0px 10px;
+     }
+    #hero-section .hero-left .mouse-icon{
+        position:relative;
+        left:0%;
+        margin-top:10px;
+    }
+     #hero-section .hero-left .mouse-icon .mouse{
+        /* position:absolute;
+        top:10px;
+        left:10px */
+     }
+      #hero-section .hero-right img{
+        width:100%;
+      }
+
+
+    /* 01:hero-section-end */
+    .mobile-search{
+        /* background-color: red; */
+        line-height: 0;
+        position: fixed;
+        bottom:20px;
+        text-align: center;
+        width:100%;
+        z-index: 1000;
+
+    }
+    .mobile-search:hover span{
+        color:#f8bc17;
+        font-weight: 900;
+    }
+    .mobile-search span{
+        height:60px;
+        width:60px;
+        background-color: white;
+        display: inline-block;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 10px 14px 5px 0px rgba(0,0,0,0.77);
+    }
+    /* about-section-start-------------------------------------------------------- */
+    #about{
+        padding:25px 0px 0px ;
+        text-align: center;
+    }
+    #about .about-left {
+        transform: rotateY(180deg);
+    }
+    #about .about-right h2{
+        font-size: 40px;
+        margin:0px;
+    }
+     #about .about-right p{
+         margin: 15px 0px 20px;
+         font-size: 15px;
+     }
+    #about .about-right a {
+        padding:7px 100px;
+        text-align: center;
+    } 
+    /* about-section-end */
+    /* quality-start---------------------------------------------------------- */
+    #quality{
+        padding:70px 0px 70px 0px;
+    }
+    #quality .quality-cards-container{
+        /* text-align: center;
+        flex-direction: column;
+        margin:0px;...............no change this code */
+        padding:0px;
+    }
+    #quality .card-container{
+        /* margin-left:20px;
+        text-align: center;..............no effect this code */
+        width:100%
+    }
+    /* quality-end */
+    /* 04:branding-start---------------------------------------------------- */
+    #branding{
+        text-align: center;
+    }
+    #branding .branding-container{
+        width:auto;
+        padding:0px 0px 50px;
+    }
+    #branding .branding-right{
+        /* width:90% */
+        text-align: center;
+    }
+    #branding .branding-right h2 {
+        font-size: 40px;
+        margin-top:-50px;
+    }
+     #branding .branding-right p{
+        font-size: 15px;
+        line-height: 180%;
+        margin:10px 10px 30px ;
+    }
+    #branding .branding-right svg{
+        display: none;
+    }
+    #branding .branding-right .see-project-button{
+        font-size: 15px;
+        padding:10px 100px;
+    }
+    /* branding-end */
+    /* 05:help-start------------------------------------------------------- */
+    #help{
+        padding:45px 0px;
+    }
+    #help .help-left .card-container{
+        width:90%;
+        margin:20px ;
+
+    }
+    #help .help-left .card-container h2{
+        margin-bottom: 0px;
+    }
+   
+    #help .help-right{
+        text-align: center;
+        margin-top: 50px;
+
+    }
+    #help .help-right h2{
+        font-size: 40px;
+        text-align: center;
+        margin:0px 0px 0px 0px;
+
+    }
+    #help .help-right .help-right-description{
+        font-size: 15px;
+        line-height: 180%;
+        margin:20px 0px;
+        text-align: center;
+    }
+     #help .help-right .rating{
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+
+     }
+     #help .help-right .card-container{
+        /* width: 100%; */
+        /* display: flex; */
+     }
+    /* 05:help-end */
+}
